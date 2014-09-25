@@ -90,10 +90,10 @@ angular.module('app', [])
       };
 
       // Change multiple states at once
-      this.handleActionB = function (valueA, valueB) {
+      this.handleActionB = function (value) {
         this.setState({
-          stateA: valueA,
-          stateB: valueB
+          stateA: this.getState('stateB'),
+          stateB: value
         });
       };
 
