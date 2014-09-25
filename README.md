@@ -23,7 +23,7 @@ plugin lets you add actions and store services to your application. By following
 
 
 ```sh
-$ bower install angular-flux
+$ bower install angular-flux-bower
 ```
 
 ### How to use
