@@ -110,7 +110,7 @@ angular.module('app', [])
   });
 ```
 
-### Adding state
+### Adding state to controller scopes
 ```javascript
 angular.module('app', ['flux'])
   .controller('TodoCtrl', function ($scope, store) {
