@@ -39,7 +39,7 @@ angular.module('app', ['flux'])
   })
   .service('store', function (flux, actions) {
 
-    return flux.createStore({
+    return flux.createStore(function () {
 
       this.addState({
         todos: []
