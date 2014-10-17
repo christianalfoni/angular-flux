@@ -77,7 +77,7 @@ angular.module('app', ['flux'])
 ```javascript
 angular.module('app', [])
   .service('store', function (flux, actions) {
-    return flux.createStore({
+    return flux.createStore(function () {
 
       this.addState({
         stateA: 'foo',
